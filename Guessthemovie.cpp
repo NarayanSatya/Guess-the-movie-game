@@ -152,7 +152,7 @@ int main()
           case 1: cout << "This game is about guessing the name of the movie.\n";
                   cout << "You have 10 points to begin with.You make a guess of the letters in the movie\nif the guessed letter matches with any of the letter in the movie you get pretty close to guess the movie.\n";
                   cout << "You lose 1 point for each wrong guess.\nThe game gets over if you lose all your points.\n";
-                  cout << "Now would you like to begin the game :\nPress n to exit or any other key to continue : ";
+                  cout << "Now would you like to begin the :\nPress n to exit or any other key to continue : ";
                   cin >> c;
                   if(c=='n' || c=='N')
                     break;
